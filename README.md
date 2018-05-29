@@ -37,3 +37,6 @@ Python tools:
 Survey results and charts can be pulled as: 
   Specific question, all years (select_question.ipynb). 
   All questions for specific year (select_year.ipynb).
+
+
+Both scripts run well locally but not on GitHub where I'm getting the CParserError: Error tokenizing data. If you have any idea why please let me know. I'm raising a question on stack and hope it will be sorted out soon.
