@@ -30,7 +30,9 @@ Q7RENTAL Airport Rental Car Center
 Q7ALL SFO Airport as a whole
 
 Data cleaning and preparation: data_preparation.ipynb
-Python tools: pandas (preparation and analysis), ipwidgets (drop down menus), altair (visualization)
+Python tools: 
+    Jupyter widgets (drop down menus): https://ipywidgets.readthedocs.io/en/latest/index.html
+    altair (visualization): https://altair-viz.github.io/
 
 Survey results and charts can be pulled as: 
   Specific question, all years (select_question.ipynb). 
