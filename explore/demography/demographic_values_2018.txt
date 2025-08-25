@@ -1,0 +1,16 @@
+Under 18
+18 - 24|18 – 24
+25 - 34|25 – 34
+35 - 44|35 – 44
+45 - 54|45 – 54
+55 - 64|55 – 64
+65 and over
+Blank/Multiple responses|Blank
+Male
+Female
+Non-Binary
+Under 50,000|Under \$50,000
+\$50,000 - \$100,000|\$50,000-\$100,000
+\$100,001 - \$150,000|\$100,001-\$150,000
+Over \$150,000|Over \$150,000
+Other Currency \(specify\)|Other \(unspecified\)

@@ -6,13 +6,10 @@ Analysis of customer sureveys conducted by the San Francisco Airport (2010-2017)
 Source: San Francisco DATA portal (DATA SF)
 https://data.sfgov.org/browse?q=SFO%20Customer%20Survey&anonymous=true&sortBy=relevance  
 
-Columns: Rating of airport services by guets.
-Ratings scale: 1 (unacceptable),2,3,4,5 (outstanding).   
-Excluded from the analyiss: 6=Have never used or visited / Not applicable, 0=Blank.
-Thus, the results are in relation to the guests who used or were assisted by the serivces asked about, rather than 
-the survey respondents as a whole. 
-    
-Questions (2016 Codes):
+
+# Columns
+## Rating of airport services by guets  
+### Questions:  
 Q7ART Artwork and exhibitions
 Q7FOOD Restaurants
 Q7STORE Retail shops and concessions
@@ -27,16 +24,20 @@ Q7PARK Airport parking facilities
 Q7AIRTRAIN AirTrain
 Q7LTPARKING Long term parking lot shuttle (bus ride)
 Q7RENTAL Airport Rental Car Center
-Q7ALL SFO Airport as a whole
+Q7ALL SFO Airport as a whole  
+### Ratings:  
+1 (unacceptable),2,3,4,5 (outstanding).   
+6=Have never used or visited / Not applicable, 0=Blank.  
+## Respondent demography  
+### Questions & Ratings: 
+Gender  
+Non-Binary is added only in 2018, Other used in some datasets but removed since the focus was on comparing males and females 
+Age for 2016 includes values related to specific ages: 'Under 20', 'Under 23', 'Under 25', 'Under 27', 'Under 28', 'Under 30', 'Under 32', 'Under 18', 'Under 19', 'Under 21', 'Under 22', 'Under 24', 'Under 26', 'Under 29', 'Under 31'. They were introduced under the most suitable groupings: 'Under 20' in '18-24', 'under 27' in '25-34' etc
+For all demographic questions:   
+Blank may indicate an answer left blank or given multiple responses (In questionnaire: Blank/Multiple responses) and cases of Don’t know/Refused or 'Other Currency' in income  
 
-Data cleaning and preparation: data_preparation.ipynb
-Python tools: 
-    Jupyter widgets (drop down menus): https://ipywidgets.readthedocs.io/en/latest/index.html
-    altair (visualization): https://altair-viz.github.io/
 
-Survey results and charts can be pulled as: 
-  Specific question, all years (select_question.ipynb). 
-  All questions for specific year (select_year.ipynb).
+Variables exploration: explore directory  
+Data cleaning and preparation: data/build.py  
+Dashboard data: data/dataset.xlsx  
 
-¡¡¡¡¡¡
-Both scripts run well locally but not on GitHub where I'm getting the CParserError: Error tokenizing data. If you have any idea why please let me know. I'm raising a question on stack and hope it will be sorted out soon.
